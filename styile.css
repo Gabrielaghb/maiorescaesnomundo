@@ -2,11 +2,41 @@ body{
 background-color: white
 }
 
-.hh{
-  width: 25%;
-  height: 240px
+header{
+  padding: 50px
 
+}
+#patinha{
+width: 240px
+}
 
+.padding{
+color: red
+}
+
+.cabeçalho{
+position: relative;
+width: 940px;
+margin: 0px;
+padding: 40px
+}
+
+nav{
+  position: absolute;
+  top: 110px;
+  right: 0px
+}
+
+nav li{
+  display: inline;
+  margin: 0 0 0 15px
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px
 }
 p{
   font-size: 20px;padding-left: 40px
@@ -14,7 +44,9 @@ p{
 
 h1{
   text-align: center;
-    color: black
+    color: grey;
+    border: groove 20px black;
+    margin: 20px
 }
 
 li {
@@ -35,10 +67,9 @@ h2{
 
 .titulo3{
   font-size: 20px;
-  color: black; margin-left: 40px
+  color: blue; margin-left: 40px
 }
 
-#hh {
-
-  color: red
+#phx {
+  color: grey
 }
